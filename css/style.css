@@ -1,0 +1,539 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* NAVIGATION  */
+/* section1-div1*/
+header {
+    background-color: #4f7af3;
+    border-bottom: 15px solid;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-img {
+    margin: 10px 50px;
+}
+
+.myicon1 {
+    opacity: 0;
+}
+
+#chk {
+    opacity: 0;
+}
+
+.nav-ul {
+    display: flex;
+}
+
+.nav-ul-li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.nav-ul-li .nav-a {
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.nav-a:hover {
+    color: #51fe44;
+}
+
+/* WELCOME */
+/* section2-div2 */
+.section {
+    background-image: url(../images/banner.jpg);
+}
+
+.container2 {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.div-a {}
+
+.div-b {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div-c {
+    width: 80%;
+    margin-left: -120px;
+}
+
+.div-c h1 {
+    margin-top: 100px;
+    font-size: 70px;
+    color: #51fe44;
+}
+
+.div-c h3 {
+    margin-top: 20px;
+    font-size: 34px;
+    color: aliceblue;
+}
+
+.div-c .WELCOME-p {
+    margin-top: 20px;
+    font-size: 17px;
+    color: aliceblue;
+    line-height: 30px;
+}
+
+.div-c .button {
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+
+.div-c .button .contactus-banner-a {
+    padding: 15px;
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+}
+
+.img {
+    margin-right: -120px;
+    width: 90%;
+}
+
+
+.car-img {
+    margin: 100px 0;
+    width: 100%;
+}
+
+/* AUTO-DIAGNOSE */
+/* section3-div3 */
+.div3 {}
+
+.container3 {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.main-autodiv {
+    display: flex;
+    position: relative;
+    top: -45px;
+}
+
+#autodia1,
+#autodia2,
+#autodia3 {
+    background-color: snow;
+    text-align: center;
+    width: 80%;
+}
+
+#autodia2 {
+    margin: 0 30px;
+}
+
+.h2 {
+    margin-top: 50px;
+}
+
+.autodia-img {
+    margin: 15px 0;
+}
+
+.loremp {
+    color: #666;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+
+/* ABOUT OUR CAR SERVICES */
+/* section4- div4 */
+
+.div4 {}
+
+.container4 {
+    margin: 0 auto;
+    text-align: center;
+    width: 1150px;
+}
+
+
+#h2-about {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.about-hr {
+    width: 280px;
+    color: #4f7af3;
+    margin: 0 auto;
+}
+
+.about-inner {
+    width: 100%;
+    position: relative;
+    margin-top: 70px;
+}
+
+
+
+.about-inner-content {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}
+
+.about-inner-content-h2 {
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+}
+
+.about-inner-content-p {
+    width: 32%;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#button {
+    position: relative;
+    top: 160px;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 30px;
+    transition: all 1s;
+}
+
+.about-inner-content-img {
+    width: 60%;
+    margin: 0 auto;
+    background: url(../images/about.png);
+    height: 700px;
+    background-size: 100% 100%;
+}
+
+#button:hover {
+    background-color: #51fe44;
+    color: snow;
+}
+
+
+
+/* WHAT WE DO */
+/* SECTION5-DIV5 */
+
+.div5 {
+    width: 100%;
+}
+
+.container5 {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.whatwedo-maindiv {
+    text-align: center;
+}
+
+#whatwedo-h3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 31px;
+}
+
+#whatwedo-hr {
+    margin: 0 auto;
+    width: 250px;
+    color: #4f7af3;
+}
+
+#whatwedo-h4 {
+    margin-top: 30px;
+    font-size: 23px;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-left: 260px;
+}
+
+.flex-wrap-img {
+    width: 32%;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#whatwedo-button {
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 30px;
+    transition: all 1s;
+}
+
+#whatwedo-button:hover {
+    background-color: #51fe44;
+    color: snow;
+}
+
+/* TESTIMONIALS */
+/* SECTION6-DIV6 */
+
+.div6 {
+    width: 100%;
+}
+
+.container6 {
+    width: 1150px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Testimonials-h2 {
+    margin-top: 50px;
+    font-size: 31px;
+    margin-bottom: 10px;
+}
+
+.Testimonials-hr {
+    margin: 0 auto;
+    width: 250px;
+    color: #4f7af3;
+}
+
+
+.Testimonials-h3 {
+    font-size: 23px;
+    margin-top: 40px;
+}
+
+.Testimonials-inner {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.Testimonials-inner-content1,
+.Testimonials-inner-content2 {
+    width: 50%;
+    background-color: black;
+    color: aliceblue;
+}
+
+.Testimonials-inner-content2 {
+    margin-left: 35px;
+}
+
+#Testimonials-jckolo-img {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+.Testimonials-img1 {
+    width: 23%;
+}
+
+.JCKOLO {
+    font-size: 21px;
+    margin-top: 22px;
+    margin-left: 35px;
+}
+
+.JCKOLO-a {
+    text-decoration: none;
+    color: #4f7af3;
+}
+
+.Testimonials-inner-content1-p {
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    padding: 0 30px;
+}
+
+/* INPUT-MAP */
+/* SECTION7-DIV7 */
+
+.footer {
+    width: 100%;
+    background-color: #141629;
+}
+
+.container7 {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.footer-div-content {
+    color: snow;
+}
+
+/* diva */
+.contactus-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+}
+
+.contactus-border {
+    font-weight: 500;
+    margin: 100px 60px;
+    border-bottom: 1px solid white;
+    width: 200px;
+    padding-bottom: 5px;
+}
+
+.footer-icon-ul {
+    margin: 100px 0;
+    display: flex;
+}
+
+.footer-icon-li {
+    margin: 0 30px;
+    display: inline-block;
+}
+
+.fa-map-marker:hover,
+.fa-phone:hover,
+.fa-envelope:hover {
+    color: #51fe44;
+    transition: all 1s;
+}
+
+/* DIVB */
+form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-inner {
+    width: 40%;
+}
+
+.fullname {}
+
+.fullname-input,
+.Email-input,
+.Phone-input,
+#address {
+    margin: 15px 0;
+    font-size: 18px;
+    width: 100%;
+    height: 53px;
+    background: 0;
+    color: snow;
+    border: inherit;
+    border-bottom: snow 1px solid;
+}
+
+.map-img-div {
+    width: 40%;
+}
+
+.map-img-img {
+    width: 100%;
+}
+
+/* DIVC */
+.send-div {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.send-snap {
+    margin: 100px 0;
+}
+
+.send-a {
+    background-color: snow;
+    color: #141629;
+    text-decoration: none;
+    padding: 5px 30px;
+}
+
+.footer-facebook {
+    margin: 100px 0;
+
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-twitter,
+.fa-linkedin-square {
+    font-size: 22px;
+    font-weight: 500;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 2;
+    background-color: aliceblue;
+    color: #141629;
+}
+
+.send-a:hover,
+.fa-instagram:hover,
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-linkedin-square:hover {
+    background-color: #51fe44;
+    color: snow;
+    transition: all 1.5s;
+}
+
+.newsletter {
+    margin: 100px 0;
+}
+
+.newsletter-h3 {}
+
+.newsletter-mail {
+
+    width: 230px;
+    height: 45px;
+}
+
+.footer-subscribe-mail-div {}
+
+.subscribe {
+    text-decoration: none;
+    background-color: #51fe44;
+    color: snow;
+    padding: 15px 35px;
+}
+
+.subscribe:hover {
+    background-color: #141629;
+    transition: all 1.5s;
+}
+
+.footer-div-h1-hr {
+    text-align: center;
+}
+
+.footer-hr {
+    margin: 0 100px;
+}
+
+.footer-h1 {
+    font-size: 20px;
+    padding: 30px 0;
+}
